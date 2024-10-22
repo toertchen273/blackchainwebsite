@@ -1,0 +1,123 @@
+.main-content{
+  margin-top: 100px;
+  width: 90%;
+  margin-left: 5%;
+  min-height: 70vh;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.stat-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0.1px 1px rgba(0,0,0,1);
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.stat-item p {
+    margin: 0;
+    color: #aaa;
+    text-align: right;
+}
+
+.stat-item h3 {
+    margin: 10px 0 0 0;
+    color: #333;
+    text-align: right;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.action-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+
+.stake-button {
+    background-color: #788FC1;
+    transition: 200ms ease-in-out;
+}
+.stake-button:hover{
+    box-shadow: 0 0.1px 1px rgba(0,0,0,1);
+}
+
+.unstake-button {
+    background-color: #f44336;
+}
+
+.claim-rewards-button {
+    background-color: #FF9800;
+}
+
+.wallet-info {
+    display: flex;
+    gap: 20px;
+}
+
+.chart-container, .transaction-history {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0.1px 1px rgba(0,0,0,1);
+    flex: 1;
+}
+
+.transaction-history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transaction-history th, .transaction-history td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.transaction-history th {
+    background-color: #333;
+    color: #fff;
+}
+
+.transaction-history td {
+    color: #333;
+}
+.statistics-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.statitem {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0.1px 1px rgba(0,0,0,1);
+    text-align: center;
+}
+
+.statitem h3 {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+}
+
+.statitem p {
+    margin: 10px 0 0;
+    font-size: 1em;
+    color: #000;
+}
